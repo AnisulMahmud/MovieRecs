@@ -5,6 +5,7 @@ import { Paper } from '@mui/material'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap'
 const Hero = ({movies}) => {
   return (
     <div className='movie-carousel'>
@@ -34,6 +35,10 @@ const Hero = ({movies}) => {
                             </Link>
 
                             <div className='movie-review-button-container'>
+
+                              <Button>
+                                
+                              </Button>
 
                             </div>
 
